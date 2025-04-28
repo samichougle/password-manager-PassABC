@@ -23,7 +23,8 @@ PassABC is a lightweight, user-friendly password manager built with pure HTML, C
 ---
 
 ##Demo
-
+![Image](https://github.com/user-attachments/assets/abb37537-8387-4a5b-b819-fc54e9db9f1c)
+![Image](https://github.com/user-attachments/assets/02c24222-0d30-4702-a449-bc011325a54a)
 
 ## 🛠️ How to Use
 
