@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./asset/favicon_io/favicon-32x32.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PassABC</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">PassABC</div>
+      <ul>
+        <li>About</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h2>Your Passwords</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Website</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+      </table>
+      <h2>Add a Password</h2>
+      <div class="inputPass">
+        <form action="/submit" method="post">
+          <!-- Text input for website -->
+          <div class="input-group">
+            <label class="input-label" for="text">Website</label>
+            <input type="text" id="website" placeholder="PassABC.com" />
+          </div>
+
+          <div class="input-group">
+            <label class="input-label" for="text">Username</label>
+            <input type="text" id="username" placeholder="superslash" />
+          </div>
+
+          <div class="input-group">
+            <label class="input-label" for="password">Password</label>
+            <input type="password" id="password" placeholder="********" />
+          </div>
+
+          <!-- <label for="website">Website:</label>
+          <input type="text" id="website" name="website" required />
+          <br /><br /> -->
+          <!-- Text input for username -->
+          <!-- <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+          <br /><br />
+          <!-- Password input -->
+          <!-- <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+          <br /> -->
+          <div class="submitButton">
+            <!-- Submit button -->
+            <button class="btn" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <h1>About PassABC</h1>
+      <p>
+        PassABC can store and manage your passwords in a secure table format.
+        Our password manager allows you to view and copy your passwords
+        effortlessly, making it simple to access your accounts without the
+        hassle. Keep your login information organized and secure, all in one
+        convenient place!
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
